@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://silvagab.com.br/", // Altere esta linha
   author: "Gabriel da Silva", // Se quiser, já pode mudar o autor para o seu nome!
-  profile: "https://github.com/unmartim",
+  profile: "https://www.linkedin.com/in/silvagab/",
   desc: "Texts from a brazillian dude",
   title: "GabrielPaper", // Mude o título se quiser também
   ogImage: "astropaper-og.jpg",
