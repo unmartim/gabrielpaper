@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://unmartim.github.io/gabrielpaper/", // Altere esta linha
+  website: "https://silvagab.com.br/", // Altere esta linha
   author: "Gabriel da Silva", // Se quiser, já pode mudar o autor para o seu nome!
   profile: "https://github.com/unmartim",
   desc: "Texts from a brazillian dude",
