@@ -3,7 +3,7 @@ export const SITE = {
   author: "Gabriel da Silva", // Se quiser, já pode mudar o autor para o seu nome!
   profile: "https://www.linkedin.com/in/silvagab/",
   desc: "Texts from a brazillian dude",
-  title: "Silvagab", // Mude o título se quiser também
+  title: "GabrielPaper", // Mude o título se quiser também
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
