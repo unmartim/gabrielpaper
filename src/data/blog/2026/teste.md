@@ -3,7 +3,7 @@ title: Agentic AI, I guess
 author: Gabriel da Silva
 pubDatetime: 2026-06-29T02:05:51Z
 featured: false
-draft: false
+draft: true
 tags:
   - AI
   -  Data Engineering
