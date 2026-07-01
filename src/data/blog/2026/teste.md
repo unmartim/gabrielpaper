@@ -1,206 +1,107 @@
 ---
-title: Tailwind Typography Plugin
-author: Sat Naing
-pubDatetime: 2022-07-05T02:05:51Z
+title: Agentic AI, I guess
+author: Gabriel da Silva
+pubDatetime: 2026-06-29T02:05:51Z
 featured: false
 draft: false
 tags:
-  - TypeScript
-  - Astro
-description: "EXAMPLE POST: About Tailwind Typography Plugin and how you can use it effectively."
+  - AI
+  -  Data Engineering
+description: "First article, talking about agentic ai."
 ---
+Okay, so first of all, this is not an article showing you how to build a SaaS company with Agentic AI. This will be a 10-minute read, or maybe a 10-hour read if you don’t put down your cellphone. This will be your #1 article of today. Trust me, I don't lie. The ones lying are the big tech companies in their AI benchmarks.
 
-> This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
+Well, that "generative AI" chat tool you use is just the tip of the iceberg. It's got a massive bottleneck: it produces content, but it doesn't do anything. It's a tool that sits there waiting for your prompt. To break this bottleneck, we need to stop looking at the chat interface and understand the LLM that powers it.
 
-By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
+### Wait... what actually is an LLM?
 
-We get lots of complaints about it actually, with people regularly asking us things like:
+Before we start giving AI a credit card and Slack access, let's talk about the thing inside the agent: the LLM.
 
-> Why is Tailwind removing the default styles on my `h1` elements? How do I disable this? What do you mean I lose all the other base styles too?
-> We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a `p` element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look _awesome_, not awful.
+Contrary to what your uncle on Facebook believes, it isn't a tiny devil trapped inside your computer reading your **thoughts** via microwaves or **scouring** the entire Wikipedia. It's basically a machine that became absurdly good at predicting what comes next in a sentence. It learned that by reading an unhealthy amount of books, websites, code and internet arguments. So every answer it gives is really just one prediction after another.
 
-The `@tailwindcss/typography` plugin is our attempt to give you what you _actually_ want, without any of the downsides of doing something stupid like disabling our base styles.
+Sometimes those predictions are brilliant. Sometimes they're confidently wrong. Congratulations, now it behaves like half the people on LinkedIn.
 
-It adds a new `prose` class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:
+The next step isn't about AI creating more, it's about AI doing more (if you still have credits), which brings us to Agentic AI.
 
-```html
-<article class="prose">
-  <h1>Garlic bread with cheese: What the science tells us</h1>
-  <p>
-    For years parents have espoused the health benefits of eating garlic bread
-    with cheese to their children, with the food earning such an iconic status
-    in our culture that kids will often dress up as warm, cheesy loaf for
-    Halloween.
-  </p>
-  <p>
-    But a recent study shows that the celebrated appetizer may be linked to a
-    series of rabies cases springing up around the country.
-  </p>
-  <!-- ... -->
-</article>
-```
+First we had calculators. Then chatbots. Then LLMs. Then LLMs learned to use tools. And eventually someone thought: "what if we stop pressing Enter every five seconds?" That's basically where agents came from.
 
-For more information about how to use the plugin and the features it includes, [read the documentation](https://github.com/tailwindcss/typography/blob/master/README.md).
+### The Shift: From Thinking to Doing (that title is elegant, isn't?)
 
----
+Generative AI creates the marketing plan, while Agentic AI executes it, posts it, tracks the metrics and adjusts the strategy on its own.
 
-## What to expect from here on out
+Think of your company. You have HR, tech, and finance departments. Not even the CEO knows how to do everything. That's Agentic AI. It's a network of specialized digital workers operating within a corporate hierarchy to solve business problems autonomously (ok, that's an enormous word for my portuguese vocabulary), through a continuous loop.
 
-What follows from here is just a bunch of absolute nonsense I've written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like **bold text**, unordered lists, ordered lists, code blocks, block quotes, _and even italics_.
+<img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/7f919673-c554-4fad-99ad-069946f3bc35" />
 
-It's important to cover all of these use cases for a few reasons:
+Huge thanks to IBM for the image. It’s a one-sided relationship for now, but I've always liked them.
 
-1. We want everything to look good out of the box.
-2. Really just the first reason, that's the whole point of the plugin.
-3. Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
+Sounds fancy, but remember: the LLM is just the brain. Give me the smartest brain on Earth and lock it inside an empty room forever. Cool. It still can't send an email. Or order pizza. Or delete your production database (which is actually a good thing).
 
-Now we're going to try out another header style.
+That's where 'tools' come in.
 
-### Typography should be easy
+### Ok so what does that mean?
 
-So that's a header for you — with any luck if we've done our job correctly that will look pretty reasonable.
+But how does this digital employee actually operate without you pressing "Enter" every 2 minutes? IBM explains that it runs on a 4-step loop: **Perceive** (it looks at APIs, databases, and the real world), **Reason** (it uses the LLM to plan the steps), **Act** (it does the heavy lifting), and **Learn** (it checks if it did something stupid and recalibrates).
 
-Something a wise person once told me about typography is:
+<img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/34d8c7d7-2156-47f8-82d1-e28732e68f1c" />
 
-> Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.
-> It's probably important that images look okay here by default as well:
+Hello IBM again, thanks for the image.
+By the way, "Learn" is doing a lot of heavy lifting here. Most AI agents don't actually retrain themselves after every task. The underlying model usually stays exactly the same. Instead, the agent stores useful information somewhere else, a database, a vector store, or another memory system, and retrieves it later when needed.
 
-<figure>
-  <img
-    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-    alt=""
-  />
-  <figcaption>
-    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-    classical Latin literature from 45 BC, making it over 2000 years old.
-  </figcaption>
-</figure>
+There _are_ systems that continuously learn, but that's not how most production AI agents work today.
 
-Now I'm going to show you an example of an unordered list to make sure that looks good, too:
+And to actually act, they use a neat technical feature called Tool Calling. A normal LLM is just a brain locked in a dark room. Tool Calling gives that brain a pair of hands. The agent decides by itself when it needs to reach out into the real world. It grabs a keyboard to fire an email via Gmail, updates a row in a shared Google Sheet, pings the engineering team on Slack, triggers an n8n or Power Automate workflow, or connects directly to an external API to change things in the real world. It doesn't ask for permission; it just picks up the right tool and does the job.
 
-- So here is the first item in this list.
-- In this example we're keeping the items short.
-- Later, we'll use longer, more complex list items.
+But here's the funny part. Ask ChatGPT what your company's vacation policy is and it'll probably answer something like: "Well... companies usually offer..." Bro... I wasn't asking about companies. I was asking about _my_ company. That's why businesses use something called Retrieval-Augmented Generation (RAG). Instead of making stuff up, the AI first searches your own documents, grabs the relevant pages and only then starts answering. It doesn't magically know your policies. It simply became really good at finding them.
 
-And that's the end of this section.
+Notice what happened here? We didn't make the model smarter.
 
-## What if we stack headings?
+We simply gave it better information before asking the question. That's an important distinction because most enterprise AI isn't about building a smarter model. It's about giving the existing one access to the right knowledge.
 
-### We should make sure that looks good, too.
+It's basically an open-book exam for robots. Give me your entire Compliance Policies, your contracts and whatever. Maybe I will understand a few and forget the rest. Plug your data into an AI Agent and tcharam, you got a live employee that knows all your policies.
 
-Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.
+### Ok but why should you care?
 
-### When a heading comes after a paragraph …
+A lot of C-Level guys say this is a multi-trillion-dollar opportunity. I won't drop any names because what if they wake up tomorrow out of nowhere, declare "AI is dead," and then I have to rewrite this entire text? But you know who they are, it's FAANG. And honestly, for once, they might not be exaggerating. MIT calls this the destruction of "transaction costs."
 
-When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let's see what a more complex list would look like.
+Think about it: instead of paying an expensive legal team or a procurement specialist to review thousands of pages of vendor agreements and shipping manifests 24/7, the agent does it for fractions of a cent. It basically kills information asymmetry. You know when you try to buy a used car or negotiate a contract and the other guy hides a bunch of details because he knows you won't read the fine print? An AI Agent reads the whole market history in milliseconds, finds the scam, and balances the game.
 
-- **I often do this thing where list items have headings.**
+### But waaait, there are a lot of problems
 
-  For some reason I think this looks cool which is unfortunate because it's pretty annoying to get the styles right.
+You might think building this is all about fancy prompt engineering. Spoiler alert: 80% of the job is boring, unglamorous data engineering. If your database is a mess and your APIs are broken, your agent will just make catastrophic decisions at industrial scale.
 
-  I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn't write this way.
+AI startups hate admitting this because it isn't sexy. Nobody raises $200 million saying: "Guys... today we're cleaning duplicate customer records." But honestly? That's where most AI projects succeed or die. Garbage in, garbage out. AI just happens to do the "garbage out" part much faster. The biggest threat with Agentic AI isn't that it fails. It's that it succeeds too well at the wrong objective.
 
-- **Since this is a list, I need at least two items.**
+If you tell some kid to maximize social media engagement, it might start posting toxic, controversial content because it starts seeing numbers and thinks that this is a good thing, so as a AI, it didn't break the rules, it just optimized your poorly worded goal. If you have multiple agents working together without strict rules, one small error in a data agent can cascade into a massive traffic jam of wrong decisions before a human even blinks.
 
-  I explained what I'm doing already in the previous list item, but a list wouldn't be a list if it only had one item, and we really want this to look realistic. That's why I've added this second list item so I actually have something to look at when writing the styles.
+<img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/60b1c9a2-69a0-4a75-a31a-b14e394180c9" />
 
-- **It's not a bad idea to add a third item either.**
+To diversify, that one image is from NBC News.
 
-  I think it probably would've been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.
+This problem even has an official name because apparently researchers don't call things "oopsies." It's called the Alignment Problem. The AI wasn't evil. It wasn't trying to manipulate anyone. It simply optimized exactly what you asked instead of what you actually meant.
 
-After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.
+Hallucinations also become a lot more expensive once the AI starts acting. If ChatGPT tells you Neymar invented Wi-Fi, you laugh and move on. If your purchasing agent hallucinates a supplier and wires ten thousand dollars to the wrong company......well, congratulations. Accounting just found a new reason to hate technology.
 
-## Code should look okay by default.
+### How to not start posting on Linkedin like me (a.k.a how to not break your business)
 
-I think most people are going to use [highlight.js](https://highlightjs.org/) or [Prism](https://prismjs.com/) or something if they want to style their code blocks but it wouldn't hurt to make them look _okay_ out of the box, even with no syntax highlighting.
+Stop saying 'yes' to your children. Treat your agents like interns. Give them access only to what they need. Let a customer service agent refund up to $50, but loop in a human for anything higher.
 
-Here's what a default `tailwind.config.js` file looks like at the time of writing:
+In corporate talk, they call this **AgentOps and AI Governance**. Keeping a _Human-in-the-loop_ isn't just a boring checkbox; it's the only thing preventing your automated system from filing for bankruptcy on its own.
 
-```js
-module.exports = {
-  purge: [],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-};
-```
+Humans aren't there because AI is dumb. Humans are there because bankruptcy paperwork is surprisingly time consuming.
 
-Hopefully that looks good enough to you.
+MIT even found out that these agents have "personalities" that impact your team. If your human team is overconfident, you need a skeptical agent that pushes back and double-checks facts. If the team is insecure, the agent needs to be more agreeable and proactive. Even robots need to fit the company culture now.
 
-### What about nested lists?
+If this still sounds like science fiction, it isn't. GitHub Copilot already writes production code.  
+Claude edits entire repositories. Microsoft Copilot lives inside Office. OpenAI has Deep Research. Companies aren't asking whether they'll use AI anymore. They're trying to figure out which employee gets an AI coworker first.
 
-Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.
+Remember those AI benchmarks I made fun of at the beginning? They aren't useless. They're just really good at measuring how well a model performs on... benchmarks. Building a useful AI agent isn't about squeezing another 2% out of some leaderboard. It's about surviving Walter's Excel spreadsheet, your legacy ERP and your finance department without accidentally starting World War III.
 
-1. **Nested lists are rarely a good idea.**
-   - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
-   - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
-   - Nesting tons of folders in your source code is also not helpful.
-2. **Since we need to have more items, here's another one.**
-   - I'm not sure if we'll bother styling more than two levels deep.
-   - Two is already too much, three is guaranteed to be a bad idea.
-   - If you nest four levels deep you belong in prison.
-3. **Two items isn't really a list, three is good though.**
-   - Again please don't nest lists if you want people to actually read your content.
-   - Nobody wants to look at this.
-   - I'm upset that we even have to bother styling this.
+Twenty years ago every company needed a website. Then every company needed a mobile app.  
+Today every company wants a chatbot. Five years from now, every company will have AI employees. The competitive advantage won't be having AI anymore. It'll be knowing which decisions should stay human.
 
-The most annoying thing about lists in Markdown is that `<li>` elements aren't given a child `<p>` tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.
+Because delegating work is easy. Delegating responsibility isn't.
 
-- **For example, here's another nested list.**
+The brain finally got arms.
 
-  But this time with a second paragraph.
-  - These list items won't have `<p>` tags
-  - Because they are only one line each
-
-- **But in this second top-level list item, they will.**
-
-  This is especially annoying because of the spacing on this paragraph.
-  - As you can see here, because I've added a second line, this list item now has a `<p>` tag.
-
-    This is the second line I'm talking about by the way.
-
-  - Finally here's another list item so it's more like a list.
-
-- A closing list item, but with no nested list, because why not?
-
-And finally a sentence to close off this section.
-
-## There are other elements we need to style
-
-I almost forgot to mention links, like [this link to the Tailwind CSS website](https://tailwindcss.com). We almost made them blue but that's so yesterday, so we went with dark gray, feels edgier.
-
-We even included table styles, check it out:
-
-| Wrestler                | Origin       | Finisher           |
-| ----------------------- | ------------ | ------------------ |
-| Bret "The Hitman" Hart  | Calgary, AB  | Sharpshooter       |
-| Stone Cold Steve Austin | Austin, TX   | Stone Cold Stunner |
-| Randy Savage            | Sarasota, FL | Elbow Drop         |
-| Vader                   | Boulder, CO  | Vader Bomb         |
-| Razor Ramon             | Chuluota, FL | Razor's Edge       |
-
-We also need to make sure inline code looks good, like if I wanted to talk about `<span>` elements or tell you the good news about `@tailwindcss/typography`.
-
-### Sometimes I even use `code` in headings
-
-Even though it's probably a bad idea, and historically I've had a hard time making it look good. This _"wrap the code blocks in backticks"_ trick works pretty well though really.
-
-Another thing I've done in the past is put a `code` tag inside of a link, like if I wanted to tell you about the [`tailwindcss/docs`](https://github.com/tailwindcss/docs) repository. I don't love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.
-
-#### We haven't used an `h4` yet
-
-But now we have. Please don't use `h5` or `h6` in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a `before` pseudo-element to scream at you if you use an `h5` or `h6`.
-
-We don't style them at all out of the box because `h4` elements are already so small that they are the same size as the body copy. What are we supposed to do with an `h5`, make it _smaller_ than the body copy? No thanks.
-
-### We still need to think about stacked headings though.
-
-#### Let's make sure we don't screw that up with `h4` elements, either.
-
-Phew, with any luck we have styled the headings above this text and they look pretty good.
-
-Let's add a closing paragraph here so things end with a decently sized block of text. I can't explain why I want things to end that way but I have to assume it's because I think things will look weird or unbalanced if there is a heading too close to the end of the document.
-
-What I've written here is probably long enough, but adding this final sentence can't hurt.
+So stop worrying about what tool will write your next email, and start figuring out which parts of your operation you're actually willing to hand over to the bots.
