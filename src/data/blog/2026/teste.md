@@ -122,5 +122,3 @@ Delegating responsibility isn't.
 
 --- 
 P.S. Yes, I skipped tokens, temperature, rate limits, etc. on purpose. This one was about the "why." The "how" is coming in a future article, once I stop being lazy and actually write it.
-
-So stop worrying about what tool will write your next email, and start figuring out which parts of your operation you're actually willing to hand over to the bots.
