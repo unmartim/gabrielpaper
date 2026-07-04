@@ -11,13 +11,8 @@ export const SITE = {
   scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
   showBackButton: true,
-  editPost: {
-    enabled: true,
-    text: "Edit page",
-    url: "https://github.com/unmartim/gabrielpaper/edit/main/", // Link do seu repositório
-  },
   dynamicOgImage: true,
   dir: "ltr",
-  lang: "pt-BR", // Se o seu blog for em português, já mude para pt-BR
+  lang: "en-US", // Se o seu blog for em português, já mude para pt-BR
   timezone: "America/Sao_Paulo", // Ajuste para o nosso fuso horário
 } as const;
