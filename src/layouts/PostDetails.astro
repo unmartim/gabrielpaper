@@ -14,6 +14,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
+import PostComments from "@components/PostComments.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -116,7 +117,7 @@ const nextPost =
     >
       <Content />
     </article>
-
+    <PostComments />
     <hr class="my-8 border-dashed" />
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
